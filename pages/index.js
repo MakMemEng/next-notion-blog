@@ -71,9 +71,6 @@ export default function Home({ posts }) {
                     <a>
                       <Text text={post.properties.Name.title} />
                     </a>
-                    <p>
-                      <Text text={post.properties.Category.multi_select} />
-                    </p>
                   </Link>
                 </h3>
 
